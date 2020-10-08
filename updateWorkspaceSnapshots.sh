@@ -8,6 +8,8 @@ cp package_bundle_amd64_debian9.versions package_bundle_amd64_debian9.versions~
 cp package_bundle_amd64_debian10.versions package_bundle_amd64_debian10.versions~
 cp package_bundle_arm64_debian9.versions package_bundle_arm64_debian9.versions~
 cp package_bundle_arm64_debian10.versions package_bundle_arm64_debian10.versions~
+cp package_bundle_s390x_debian9.versions package_bundle_s390x_debian9.versions~
+cp package_bundle_s390x_debian10.versions package_bundle_s390x_debian10.versions~
 
 YEAR=`date +"%Y"`
 MONTH=`date +"%m"`

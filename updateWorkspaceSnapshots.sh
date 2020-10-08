@@ -34,7 +34,7 @@ cat > checksums.bzl <<EOF
 # DO NOT MODIFY THIS FILE DIRECTLY.
 # TO GENERATE THIS RUN: ./updateWorkspaceSnapshots.sh
 
-ARCHITECTURES = ["amd64", "arm64"]
+ARCHITECTURES = ["amd64", "arm64", "s390x"]
 
 VERSIONS = [
     ("debian9", "stretch"),

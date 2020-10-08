@@ -99,6 +99,9 @@ bazel build --host_force_python=PY2 @package_bundle_amd64_debian9//file:packages
 bazel build --host_force_python=PY2 @package_bundle_amd64_debian10//file:packages.bzl
 bazel build --host_force_python=PY2 @package_bundle_arm64_debian9//file:packages.bzl
 bazel build --host_force_python=PY2 @package_bundle_arm64_debian10//file:packages.bzl
+bazel build --host_force_python=PY2 @package_bundle_s390x_debian9//file:packages.bzl
+bazel build --host_force_python=PY2 @package_bundle_s390x_debian10//file:packages.bzl
+
 
 # Check if any of the version lock files are updated
 

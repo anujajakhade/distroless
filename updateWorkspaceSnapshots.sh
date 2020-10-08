@@ -72,6 +72,20 @@ SHA256s = {
             "security": "`curl -s https://snapshot.debian.org/archive/debian-security/$DEBIAN_SECURITY_SNAPSHOT/dists/buster/updates/main/binary-arm64/Packages.gz 2>&1 | sha256sum | cut -d " " -f 1`",
         },
     },
+    "s390x
+        "debian9": {
+            "main": "`curl -s https://snapshot.debian.org/archive/debian/$DEBIAN_SNAPSHOT/dists/stretch/main/binary-s390x/Packages.gz 2>&i | sha256sum | cut -d " " -f 1`",
+            "backports": "`curl -s https://snapshot.debian.org/archive/debian/$DEBIAN_SNAPSHOT/dists/stretch-backports/main/binary-s390x/Packages.gz 2>&1 | sha256sum | cut -d " " -f 1`",
+            "updates": "`curl -s https://snapshot.debian.org/archive/debian/$DEBIAN_SNAPSHOT/dists/stretch-updates/main/binary-s390x/Packages.gz 2>&1 | sha256sum | cut -d " " -f 1`",
+            "security": "`curl -s https://snapshot.debian.org/archive/debian-security/$DEBIAN_SECURITY_SNAPSHOT/dists/stretch/updates/main/binary-s390x/Packages.gz 2>&1 | sha256sum | cut -d " " -f 1`",
+        },
+        "debian10": {
+            "main": "`curl -s https://snapshot.debian.org/archive/debian/$DEBIAN_SNAPSHOT/dists/buster/main/binary-s390x/Packages.gz 2>&1 | sha256sum | cut -d " " -f 1`",
+            "updates": "`curl -s https://snapshot.debian.org/archive/debian/$DEBIAN_SNAPSHOT/dists/buster-updates/main/binary-s390x/Packages.gz 2>&1 | sha256sum | cut -d " " -f 1`",
+            "security": "`curl -s https://snapshot.debian.org/archive/debian-security/$DEBIAN_SECURITY_SNAPSHOT/dists/buster/updates/main/binary-s390x/Packages.gz 2>&1 | sha256sum | cut -d " " -f 1`",
+        },
+    },
+    
 }
 EOF
 
